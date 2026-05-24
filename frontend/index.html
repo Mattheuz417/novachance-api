@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NovaChance</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>NovaChance</h1>
+
+    <section>
+
+        <h2>Cadastrar Usuário</h2>
+
+        <input type="text" id="nome" placeholder="Nome">
+        <input type="email" id="email" placeholder="Email">
+        <input type="password" id="senha" placeholder="Senha">
+        <input type="number" id="idade" placeholder="Idade">
+        <input type="text" id="area" placeholder="Área de Interesse">
+
+        <button onclick="cadastrarUsuario()">
+            Cadastrar
+        </button>
+
+    </section>
+
+    <section>
+
+        <h2>Usuários</h2>
+
+        <ul id="listaUsuarios"></ul>
+
+    </section>
+
+    <hr>
+
+    <section>
+
+        <h2>Cadastrar Oportunidade</h2>
+
+        <input type="text" id="titulo" placeholder="Título">
+        <input type="text" id="descricao" placeholder="Descrição">
+        <input type="text" id="empresa" placeholder="Empresa">
+        <input type="text" id="tipo" placeholder="Tipo">
+
+        <button onclick="cadastrarOportunidade()">
+            Cadastrar
+        </button>
+
+    </section>
+
+    <section>
+
+        <h2>Oportunidades</h2>
+
+        <ul id="listaOp"></ul>
+
+    </section>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
